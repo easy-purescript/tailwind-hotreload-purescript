@@ -1,0 +1,12 @@
+{
+  "purescript.addNpmPath": true,
+  "[purescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "nwolverson.ide-purescript"
+  },
+  "tailwindCSS.includeLanguages": {
+    "purescript": "javascript"
+  },
+  // NOTE: cls is user-defined name
+  "tailwindCSS.experimental.classRegex": ["cls[\\s]+\"([^\"]+)\""]
+}
