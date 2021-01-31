@@ -13,7 +13,7 @@ type State
   = {}
 
 data Action
-  = Nope
+  = NoOp
 
 component :: forall q i o m. MonadAff m => H.Component HH.HTML q i o m
 component =
@@ -54,7 +54,7 @@ render state =
 
 handleAction ∷ forall o m. MonadAff m => Action → H.HalogenM State Action () o m Unit
 handleAction = case _ of
-  Nope -> pure unit
+  NoOp -> pure unit
 
 main :: Effect Unit
 main =
