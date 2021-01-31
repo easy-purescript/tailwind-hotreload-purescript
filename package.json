@@ -5,9 +5,9 @@
   "scripts": {
     "clean": "rimraf output dist out",
     "build": "spago build",
-    "dev:img": "cpx asset/img/* dist/img",
+    "dev:img": "cpx --watch asset/img/* dist/img",
     "dev:js": "parcel dev -p 3000 dev/index.html",
-    "dev": "run-s dev:*",
+    "dev": "run-p dev:*",
     "bundle:img": "cpx asset/img/**/* dist/img",
     "bundle:ps": "spago bundle-app --to out/index.js",
     "bundle:js": "parcel build --no-source-maps asset/index.html",
