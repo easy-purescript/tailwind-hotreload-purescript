@@ -1,14 +1,16 @@
-# PureScript Hotreloading
+# Tailwind Hotreload PureScript
 
 - purescript-halogen
+- ide-purescript
 - tailwindcss
-- vscode-ide-purescript
+- vscode-tailwindcss
 - parcel
 
-## Command
+## Commands
 
 ```bash
 yarn
+yarn build
 yarn dev
 ```
 
