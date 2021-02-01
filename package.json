@@ -15,6 +15,7 @@
     "serve": "http-server -p 8000 dist"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "3.0.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
     "cpx": "^1.5.0",
