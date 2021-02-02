@@ -28,6 +28,7 @@ initialState _ = {}
 
 render :: forall m. State -> H.ComponentHTML Action () m
 render state =
+  -- NOTE: https://tailwindui.com/components/marketing/sections/cta-sections#component-90c79fbd0596cc4e601da985ca825994
   HH.div [ cls "bg-gray-50" ]
     [ HH.div [ cls "max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between" ]
         [ HH.h2 [ cls "text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl" ]
