@@ -2,7 +2,6 @@ module Main where
 
 import Prelude
 import Effect (Effect)
-import Effect.Aff.Class (class MonadAff)
 import Halogen as H
 import Halogen.Aff as HA
 import Halogen.HTML as HH
@@ -15,7 +14,7 @@ type State
 data Action
   = NoOp
 
-component :: forall q i o m. MonadAff m => H.Component HH.HTML q i o m
+component :: forall q i o m. H.Component q i o m
 component =
   H.mkComponent
     { initialState
@@ -52,7 +51,7 @@ render state =
   cls :: forall r i. String -> HH.IProp ( class :: String | r ) i
   cls = HP.class_ <<< H.ClassName
 
-handleAction ∷ forall o m. MonadAff m => Action → H.HalogenM State Action () o m Unit
+handleAction ∷ forall o m. Action → H.HalogenM State Action () o m Unit
 handleAction = case _ of
   NoOp -> pure unit
 

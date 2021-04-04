@@ -6,7 +6,7 @@
     "clean": "rimraf output dist out",
     "build": "spago build",
     "dev:img": "cpx --watch asset/img/* dist/img",
-    "dev:js": "parcel dev -p 3000 dev/index.html",
+    "dev:js": "parcel serve -p 3000 dev/index.html",
     "dev": "run-p dev:*",
     "bundle:img": "cpx asset/img/**/* dist/img",
     "bundle:ps": "spago bundle-app --to out/index.js",
@@ -15,18 +15,17 @@
     "serve": "http-server -p 8000 dist"
   },
   "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.2",
-    "autoprefixer": "^9",
+    "@parcel/transformer-sass": "2.0.0-beta.2",
+    "autoprefixer": "^10.2.5",
     "cpx": "^1.5.0",
     "http-server": "^0.12.3",
     "npm-run-all": "^4.1.5",
-    "parcel": "^1.12.4",
-    "postcss": "^7",
-    "purescript": "^0.13.8",
-    "purty": "^6.3.0",
+    "parcel": "^2.0.0-beta.2",
+    "postcss": "^8.1.0",
+    "purescript": "^0.14.1",
+    "purty": "^7.0.0",
     "rimraf": "^3.0.2",
-    "sass": "^1.32.5",
-    "spago": "^0.19.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "spago": "^0.20.1",
+    "tailwindcss": "^2.1.1"
   }
 }
