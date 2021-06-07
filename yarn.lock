@@ -5938,10 +5938,10 @@ purescript-installer@^0.2.0:
     which "^1.3.1"
     zen-observable "^0.8.14"
 
-purescript@^0.14.1:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/purescript/-/purescript-0.14.1.tgz#dac33e11391bc35361b187ae85f19578a286747a"
-  integrity sha512-dh87XeDP/JGe/3DKBMglkRuIRfGLGkL8beuLIl9KemzckgyuD+j7VK15eVb9n5Exp3DIr6SNEuGG4FjuQQ7Rpg==
+purescript@^0.14.2:
+  version "0.14.2"
+  resolved "https://registry.yarnpkg.com/purescript/-/purescript-0.14.2.tgz#6c42c941c014c23991d7782bbaa71f1ee73aa290"
+  integrity sha512-kEXY5yUaG8a1FNN/IdtfNl4gcql7p76CPqnanMZ37GdtBZTcFK/SB24bp2rOAT1/N9qU8/corlra6uNf4+5pgQ==
   dependencies:
     purescript-installer "^0.2.0"
 
@@ -6552,10 +6552,10 @@ source-map@~0.7.2:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
-spago@^0.20.1:
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/spago/-/spago-0.20.1.tgz#d9eacc97adda68ac8fe2fefb9d4c8d69a56c8599"
-  integrity sha512-g5ygBk61HKCyD9ILqJV+syYqDhgF7zN22CxJpm6EdA4FXA63Onh6QrZ4iaDcs/mGhCBtYqTb7PBKxAaF0wNjqw==
+spago@^0.20.3:
+  version "0.20.3"
+  resolved "https://registry.yarnpkg.com/spago/-/spago-0.20.3.tgz#f72a096456f580f6eb64fc850c371f8cb97b139f"
+  integrity sha512-R4CWLP5IbaWoNIpS1QAUuDK2LKlKYqT5gBKVZL7ILilvCwdwS72u3NbGZbvx7VCRRZz4lG7zXUkqKNow7zh6wQ==
   dependencies:
     request "^2.88.0"
     tar "^4.4.8"
@@ -6844,10 +6844,10 @@ symbol-tree@^3.2.2:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-tailwindcss@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.1.tgz#642f6038c9283a8e1454da34585b8b7c1a1e8877"
-  integrity sha512-zZ6axGqpSZOCBS7wITm/WNHkBzDt5CIZlDlx0eCVldwTxFPELCVGbgh7Xpb3/kZp3cUxOmK7bZUjqhuMrbN6xQ==
+tailwindcss@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.4.tgz#ee8a1b8ccc140db61960b6738f968a8a1c4cd1f8"
+  integrity sha512-fh1KImDLg6se/Suaelju/5oFbqq1b0ntagmGLu0aG9LlnNPGHgO1n/4E57CbKcCtyz/VYnvVXUiWmfyfBBZQ6g==
   dependencies:
     "@fullhuman/postcss-purgecss" "^3.1.3"
     bytes "^3.0.0"
